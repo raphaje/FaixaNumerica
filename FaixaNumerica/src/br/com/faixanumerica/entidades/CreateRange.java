@@ -62,8 +62,7 @@ public class CreateRange {
 		    textArea.setWrapStyleWord(true);
 		    textArea.append("" + listaTn);
 		    textArea.setSize(textArea.getPreferredSize().width, 1);
-		    JOptionPane.showMessageDialog(null, new JScrollPane( textArea), "Not Truncated!",
-		        JOptionPane.WARNING_MESSAGE);
+		    JOptionPane.showMessageDialog(null, new JScrollPane( textArea), "Faixa de Ramais Criado.",JOptionPane.WARNING_MESSAGE);
 			
 			
 			//System.out.println(listaTn);
