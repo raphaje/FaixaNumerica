@@ -54,8 +54,8 @@ public class CreateRange {
 				// System.out.println(faixa.getCn() + "" + faixa.getPrefixo() + i);
 				//JOptionPane.showMessageDialog(null, faixa.getCn() + "" + faixa.getPrefixo() + i);
 				listaTn.add(i);
+				
 			}
-			
 			JTextArea textArea = new JTextArea();
 		    textArea.setColumns(30);
 		    textArea.setLineWrap(true);
