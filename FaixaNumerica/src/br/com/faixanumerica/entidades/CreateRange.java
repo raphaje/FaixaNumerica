@@ -56,13 +56,14 @@ public class CreateRange {
 				listaTn.add(i);
 				
 			}
+			
 			JTextArea textArea = new JTextArea();
 		    textArea.setColumns(30);
 		    textArea.setLineWrap(true);
 		    textArea.setWrapStyleWord(true);
-		    textArea.append("" + listaTn);
+		    textArea.append("" + listaTn.toString().replace(",", "]").replace("[", "").replace("]", ""));
 		    textArea.setSize(textArea.getPreferredSize().width, 1);
-		    JOptionPane.showMessageDialog(null, new JScrollPane( textArea), "Faixa de Ramais Criado.",JOptionPane.WARNING_MESSAGE);
+		    JOptionPane.showMessageDialog(null, new JScrollPane(textArea), "Faixa de Ramais Criado.",JOptionPane.WARNING_MESSAGE);
 			
 			
 			//System.out.println(listaTn);
