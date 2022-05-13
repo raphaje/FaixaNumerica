@@ -4,12 +4,11 @@ import java.io.IOException;
 
 public class Main {
 
-	public static void main(String[] args) throws IOException{
+	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		
-		CreateRange create = new CreateRange();
-		
 
+		CreateRange create = new CreateRange();
+		create.range();
 	}
 
 }

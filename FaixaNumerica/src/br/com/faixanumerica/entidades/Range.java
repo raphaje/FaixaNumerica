@@ -12,6 +12,7 @@ public class Range {
 	public int getCn() {
 		return cn;
 	}
+
 	public void setCn(int cn) {
 		this.cn = cn;
 	}
